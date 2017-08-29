@@ -1,0 +1,8 @@
+amp_chrom = chr2
+amp_start = 1000000
+amp_end   = 2000000
+amp_put   = 2000001
+cnv_copy  = 1 
+hetero    = 0.50
+sim_rest  = no
+reads     = 5000000

@@ -1,0 +1,29 @@
+#Input Files
+bedFile ../InputFiles/IMR90.chr19_chr20.bed
+matFile ../InputFiles/IMR90.chr19_chr20.matrix
+###################
+#Output File Prefix
+output  IMR90
+###################
+#Chromosome sizes
+chrA	1	1479
+chrB	1480	3055
+###################
+#1st Chromosome and Its changes in Intra-chromosomal matrix (chrA)
+chr	chr19
+###################
+#2nd Chromosome and Its changes Intra-chromosomal matrix (chrB)
+chr	chr20
+###################
+#Contact count treatment
+chrA	HMD
+chrB	HTD
+###################
+#Translocation regions in Inter-chromosomal matrix
+New_Chromosome1	1:591)
+New_Chromosome2	1480:2110~592:1479)2111:3055)
+###################
+#Contact counts
+Intra	self	
+Inter	self_mean
+###################

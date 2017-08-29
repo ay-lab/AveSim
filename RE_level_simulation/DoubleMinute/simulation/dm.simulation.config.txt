@@ -1,0 +1,4 @@
+dm_chrom = chr2
+dm_start = 2000000
+dm_end   = 5000000
+reads    = 5000000

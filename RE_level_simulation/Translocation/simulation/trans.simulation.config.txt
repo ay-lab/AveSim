@@ -1,0 +1,8 @@
+don_chrom = chr2
+don_start = 1000000
+don_end   = 2000000
+rec_chrom = chr3
+rec_put   = 2000000 
+hetero    = 0.50
+sim_rest  = no
+reads     = 5000000
