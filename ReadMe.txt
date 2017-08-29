@@ -5,13 +5,13 @@ RE_level_simulation folder is subdivided into following subfolder
 	A. Amplification
 		> scripts
 		> simulation
-	A. Deletion
+	B. Deletion
                 > scripts
                 > simulation
-	A. Translocation
+	C. Translocation
                 > scripts
                 > simulation
-	A. DoubleMinute
+	D. DoubleMinute
                 > scripts
                 > simulation
 
