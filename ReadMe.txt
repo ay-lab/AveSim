@@ -26,3 +26,7 @@ Fixed_size_simulation folder is subvidived into following subfolder
 	F. Unbalanced_Translocation
 
 Users can perform different translocation simulations (D,E and F) under the respective simulation directories. Fixed-size simulation will create 2D Hi-C matrices.
+_____________________________________________________________________
+Contact
+
+abhijit@lji.org (Abhijit Chakraborty)
