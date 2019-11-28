@@ -4,7 +4,7 @@ $dm_chrom = @ARGV[0];
 $bedtools_path = @ARGV[1];
 chomp ($dm_chrom, $bedtools_path);
 $i = 0;
-while ($i <= 0){
+while ($i <= $#chr){
 	chomp $chr[$i];	
 	`paste $chr[$i]_Normal_$dm_chrom\_DM.seq_A.bed $chr[$i]_Normal_$dm_chrom\_DM.seq_B.bed > $chr[$i]_Normal_$dm_chrom\_DM.seq.temp`;
         open (temp_out_a,">$chr[$i]_Normal_$dm_chrom\_DM.seq_temp.A.bed");
